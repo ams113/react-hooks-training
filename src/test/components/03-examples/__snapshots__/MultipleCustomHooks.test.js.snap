@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Components: MultipleCustomHooks should renders correctly 1`] = `
+<Fragment>
+  <h1
+    className="title"
+  >
+    BreakingBad 
+    <span
+      className="quotes"
+    >
+      Quotes
+    </span>
+  </h1>
+  <hr />
+  <div
+    className="alert alert-success text-center"
+  >
+    Loading...
+  </div>
+</Fragment>
+`;

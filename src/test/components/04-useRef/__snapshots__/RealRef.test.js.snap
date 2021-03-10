@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Components: RealRef should renders correctly 1`] = `
+<Fragment>
+  <div>
+    <h1>
+      RealRef
+    </h1>
+  </div>
+  <button
+    className="btn btn-dark mt-5"
+    onClick={[Function]}
+  >
+    Show/Hide
+  </button>
+</Fragment>
+`;

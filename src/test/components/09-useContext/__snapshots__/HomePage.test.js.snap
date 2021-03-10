@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Components: useContext/HomePage should renders correctly 1`] = `
+<main
+  className="main-content"
+>
+  <h1>
+    HomePage
+  </h1>
+  <pre>
+    "toni"
+  </pre>
+</main>
+`;

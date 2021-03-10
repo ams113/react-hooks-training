@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Components: useContext/LoginPage should login renders correctly 1`] = `
+<main
+  className="main-content"
+>
+  <h1>
+    LoginPage
+  </h1>
+  <hr />
+  <button
+    className="btn btn-dark"
+    onClick={[Function]}
+  >
+    Login
+  </button>
+</main>
+`;

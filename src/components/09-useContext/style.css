@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700&display=swap');
+
+/*? RESET */
+
+* {
+    margin: 0;
+    padding: 0!important;
+}
+
+body {
+    font-family: 'MuseoModerno', cursive;
+}
+
+/*? Main Navbar */
+
+.btn {
+   padding: .375rem !important;
+}
+
+.main-navbar{
+    position: fixed;
+    bottom: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 80px; /** ojo  */
+    background-color: #23232e;
+    text-decoration: none;
+}
+
+.navbar-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: space-around;
+    height:  100%;
+}
+
+.logo {
+    display: none;
+}
+
+/*? Items */
+
+.navbar-item {
+    width: 100%;
+}
+
+.navbar-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 80px; /** ojo  */
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: 0.5s all ease;
+}
+/* color #551a8b */
+
+.navbar-link:hover {
+    filter: grayscale(0%) opacity(1)
+}
+
+.fa-primary {
+    color: orange;
+    height: 30px;
+    transition: 0.6s all ease;
+    
+}
+
+#dragon {
+    color: #612f91;    
+}
+#fire {
+    color: rgb(250, 41, 4);
+}
+#water {
+    color: #1a84c4;
+}
+#wind {
+    color: antiquewhite
+}
+#earth {
+    color: mediumseagreen;
+}
+
+.text-link {
+    display: none;
+}
+
+/*? MAIN */
+
+.main-content  {
+    padding: 10px !important;
+}
+
+@media only screen and (min-width: 600px) {
+
+    main {
+        margin-left: 100px !important;
+    }
+
+    .main-navbar {
+        top:0;
+        width: 100px;
+        height: 100vh;
+        transition: 0.5s all ease;
+
+
+    }
+    .main-navbar:hover {
+        width: 300px;
+    }
+
+    .main-navbar:hover .text-link {
+        display: block;
+    }
+
+    .navbar-container {
+        
+        flex-direction: column;
+        justify-content: initial;
+    }
+
+    .navbar-item:last-child {
+        margin-top: auto;
+    }
+
+    .navbar-link {
+        flex-direction: row;
+        justify-content: initial;
+        height: 100px;
+    }
+    .navbar-link svg {
+        margin: 0px 25px;
+    }
+
+    .navbar-link:hover {
+        background-color: #141418;
+    }
+    .text-link {
+        margin-left: 10px;
+        color: violet;
+    }
+    .fa-primary {
+        height: 40px;
+        width: 40px;
+    }
+    .logo {
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        text-align: center;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+
+    .logo svg{
+        color: cadetblue;
+    }
+}
